@@ -2,7 +2,7 @@ PREFIX=/usr/bin
 CC=$(PREFIX)/arm-linux-gnueabihf-gcc-6
 LD=$(PREFIX)/arm-linux-gnueabihf-ld
 
-CFLAG=-Wall-g
+CFLAGS=-Wall-g
 OBJS= DRAM_test.o 2837mmu.o
  
 DRAM_test : $(OBJS)
