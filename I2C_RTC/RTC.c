@@ -31,7 +31,7 @@
  
 struct bcm2837_peripheral gpio = {GPIO_BASE};             //Declare GPIO mmap structure
 struct bcm2837_peripheral bsc0 = {BSC0_BASE};            //Declare BSC0 mmap structure for I2C
-struct tm t;                                                                        // Declare time structure to store time infomation
+struct tm t;                                                                               // Declare time structure to store time infomation
 
 unsigned int bcd_to_decimal(unsigned int bcd) {             // Function to convert BCD to decimal value
     return ((bcd & 0xf0) >> 4) * 10 + (bcd & 0x0f);
