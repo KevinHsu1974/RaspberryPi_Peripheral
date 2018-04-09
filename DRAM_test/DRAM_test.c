@@ -27,7 +27,7 @@
 #include "2837mmu.h"
 #include <unistd.h>
 
-#define RAM_TESTSIZE               1024                 // Test Size in Byte
+#define RAM_TESTSIZE               1024                 // Test Range = (RAM_TESTSIZE x 4) Byte
 #define TEST_PATTERN1             0x99999999    // Test pattern 1, set the even bits
 #define TEST_PATTERN2             0x55555555    // Test pattern 2, set the odd bits 
 
